@@ -13,5 +13,6 @@
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("dlls/cardealershiplibrary.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("dlls/loglibary.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("dlls/multiwindowinterfacelibary.dll")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("videodemonstration/cardealershipvideo.mp4")]
 
 

@@ -12,7 +12,7 @@ namespace CarDealership
     public partial class MainWindow : Window
     {
         private string _nameCar, _haveCar;
-        private int _priceCar, _discount;
+        private int _priceCar, _discount, _idCar;
 
         CarDealershipDataBase dataBase = new CarDealershipDataBase();
         ConfigurationAssemblyWindow assemblyWindow = new ConfigurationAssemblyWindow();
@@ -90,7 +90,18 @@ namespace CarDealership
                          _discount);
                     director.CreateYourCar();
                     Car car = carBuilder.GetResult();
-                    MessageBox.Show("Заказа оформлен! Ваш чек с названием <MyCheque> лежит в папке Debug!");
+                    MessageBox.Show("Заказа оформлен! Ваш чек с названием <MyCheque> лежит в папке Release!");
+
+                    Cheques cheques = new Cheques()
+                    {
+                        idCar = _idCar,
+                        idSpoiler = ConfigurationAssemblyWindow.GetForm._idSpoiler,
+                        idColor = ConfigurationAssemblyWindow.GetForm._idColor,
+                        idEngine = ConfigurationAssemblyWindow.GetForm._idEngine
+                    };
+                    dataBase.Cheques.Add(cheques);
+                    dataBase.SaveChanges();
+                    MessageBox.Show("Ваш чек занесён в базу данных!");
                 }
                 else
                 {
@@ -108,6 +119,7 @@ namespace CarDealership
             _priceCar = select.Price;
             _discount = select.Discount;
             _haveCar = select.Availability;
+            _idCar = select.idCar;
         }
     }
 }

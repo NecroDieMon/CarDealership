@@ -189,6 +189,9 @@
     <Content Include="DLLS\CarDealershipLibrary.dll" />
     <Content Include="DLLS\LogLibary.dll" />
     <Content Include="DLLS\MultiWindowInterfaceLibary.dll" />
+    <Content Include="VideoDemonstration\CarDealershipVideo.mp4" />
+    <Resource Include="Images\Window1.png" />
+    <Resource Include="Images\Window2.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
