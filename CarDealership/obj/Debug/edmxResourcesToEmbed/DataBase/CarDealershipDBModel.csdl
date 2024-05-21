@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CarDealershipDataBaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Cars">
+    <Key>
+      <PropertyRef Name="idCar" />
+    </Key>
+    <Property Name="idCar" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Mark" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Price" Type="Int32" Nullable="false" />
+    <Property Name="Stock" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Discount" Type="Int32" Nullable="false" />
+    <Property Name="ProductionDate" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Availability" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Cheques" Relationship="Self.FK_Cheques_Cars" FromRole="Cars" ToRole="Cheques" />
+  </EntityType>
+  <EntityType Name="Cheques">
+    <Key>
+      <PropertyRef Name="idCheque" />
+    </Key>
+    <Property Name="idCheque" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="idCar" Type="Int32" Nullable="false" />
+    <Property Name="idEngine" Type="Int32" />
+    <Property Name="idColor" Type="Int32" />
+    <Property Name="idSpoiler" Type="Int32" />
+    <NavigationProperty Name="Cars" Relationship="Self.FK_Cheques_Cars" FromRole="Cheques" ToRole="Cars" />
+    <NavigationProperty Name="Colors" Relationship="Self.FK_Cheques_Colors" FromRole="Cheques" ToRole="Colors" />
+    <NavigationProperty Name="Engines" Relationship="Self.FK_Cheques_Engines" FromRole="Cheques" ToRole="Engines" />
+    <NavigationProperty Name="Spoilers" Relationship="Self.FK_Cheques_Spoilers" FromRole="Cheques" ToRole="Spoilers" />
+  </EntityType>
+  <EntityType Name="Colors">
+    <Key>
+      <PropertyRef Name="idColor" />
+    </Key>
+    <Property Name="idColor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameColor" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PriceColor" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Cheques" Relationship="Self.FK_Cheques_Colors" FromRole="Colors" ToRole="Cheques" />
+  </EntityType>
+  <EntityType Name="Engines">
+    <Key>
+      <PropertyRef Name="idEngine" />
+    </Key>
+    <Property Name="idEngine" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameEngines" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PriceEngine" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Cheques" Relationship="Self.FK_Cheques_Engines" FromRole="Engines" ToRole="Cheques" />
+  </EntityType>
+  <EntityType Name="Spoilers">
+    <Key>
+      <PropertyRef Name="idSpoiler" />
+    </Key>
+    <Property Name="idSpoiler" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameSpoiler" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="PriceSpoiler" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Cheques" Relationship="Self.FK_Cheques_Spoilers" FromRole="Spoilers" ToRole="Cheques" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Cheques_Cars">
+    <End Role="Cars" Type="Self.Cars" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Cheques" Type="Self.Cheques" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cars">
+        <PropertyRef Name="idCar" />
+      </Principal>
+      <Dependent Role="Cheques">
+        <PropertyRef Name="idCar" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cheques_Colors">
+    <End Role="Colors" Type="Self.Colors" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Cheques" Type="Self.Cheques" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Colors">
+        <PropertyRef Name="idColor" />
+      </Principal>
+      <Dependent Role="Cheques">
+        <PropertyRef Name="idColor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cheques_Engines">
+    <End Role="Engines" Type="Self.Engines" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Cheques" Type="Self.Cheques" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Engines">
+        <PropertyRef Name="idEngine" />
+      </Principal>
+      <Dependent Role="Cheques">
+        <PropertyRef Name="idEngine" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cheques_Spoilers">
+    <End Role="Spoilers" Type="Self.Spoilers" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Cheques" Type="Self.Cheques" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Spoilers">
+        <PropertyRef Name="idSpoiler" />
+      </Principal>
+      <Dependent Role="Cheques">
+        <PropertyRef Name="idSpoiler" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CarDealershipDataBase" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Cars" EntityType="Self.Cars" />
+    <EntitySet Name="Cheques" EntityType="Self.Cheques" />
+    <EntitySet Name="Colors" EntityType="Self.Colors" />
+    <EntitySet Name="Engines" EntityType="Self.Engines" />
+    <EntitySet Name="Spoilers" EntityType="Self.Spoilers" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_Cheques_Cars" Association="Self.FK_Cheques_Cars">
+      <End Role="Cars" EntitySet="Cars" />
+      <End Role="Cheques" EntitySet="Cheques" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cheques_Colors" Association="Self.FK_Cheques_Colors">
+      <End Role="Colors" EntitySet="Colors" />
+      <End Role="Cheques" EntitySet="Cheques" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cheques_Engines" Association="Self.FK_Cheques_Engines">
+      <End Role="Engines" EntitySet="Engines" />
+      <End Role="Cheques" EntitySet="Cheques" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cheques_Spoilers" Association="Self.FK_Cheques_Spoilers">
+      <End Role="Spoilers" EntitySet="Spoilers" />
+      <End Role="Cheques" EntitySet="Cheques" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

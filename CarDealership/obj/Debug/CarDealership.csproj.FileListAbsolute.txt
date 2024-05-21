@@ -1,0 +1,73 @@
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\CarDealership.exe.config
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\CarDealership.exe
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\CarDealership.pdb
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\MaterialDesignColors.dll
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\MaterialDesignColors.pdb
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.AssemblyReference.cache
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.SuggestedBindingRedirects.cache
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\MainWindow.g.cs
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\App.g.cs
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.cache
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.lref
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\App.baml
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\MainWindow.baml
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\CarDealership.g.resources
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\CarDealership.Properties.Resources.resources
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.GenerateResource.cache
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CoreCompileInputs.cache
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CopyComplete
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\CarDealership.exe
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\CarDealership.pdb
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\ConfigurationAssemblyWindow.g.cs
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\ConfigurationAssemblyWindow.baml
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\EntityFramework.dll
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\EntityFramework.xml
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\obj\Debug\CarDealership_Content.g.cs
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\CarDealershipLibrary.dll
+C:\Users\04.12.22\source\repos\CarDealership\CarDealership\bin\Debug\CarDealershipLibrary.pdb
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\CarDealership.exe.config
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\CarDealership.exe
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\CarDealership.pdb
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\CarDealershipLibrary.dll
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\EntityFramework.dll
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\LogLibary.dll
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\MaterialDesignColors.dll
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\MultiWindowInterfaceLibary.dll
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\EntityFramework.xml
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\MaterialDesignColors.pdb
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.AssemblyReference.cache
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.SuggestedBindingRedirects.cache
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\ConfigurationAssemblyWindow.g.cs
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\MainWindow.g.cs
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\App.g.cs
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\CarDealership_Content.g.cs
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.cache
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\CarDealership_MarkupCompile.lref
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\App.baml
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\ConfigurationAssemblyWindow.baml
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\MainWindow.baml
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\CarDealership.g.resources
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\CarDealership.Properties.Resources.resources
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.GenerateResource.cache
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CoreCompileInputs.cache
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\CarDealership.csproj.CopyComplete
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\CarDealership.exe
+C:\Users\04.12.22\source\repos\CarDealership (OLD)\CarDealership\CarDealership\obj\Debug\CarDealership.pdb
