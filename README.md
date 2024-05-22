@@ -22,6 +22,9 @@
   <li>СУБД SQL Server Management Studio (SSMS)</li>
   <li>Язык разметки XAML</li>
   <li>Библиотека Material Design</li>
+  <li>Собственная библиотека CarDealershipLibrary.dll (Лежит в папке DLLS)</li>
+  <li>Собственная библиотека MultiWindowInterfaceLibary.dll (Лежит в папке DLLS)</li>
+  <li>Собственная библиотека LogLibary.dll (Лежит в папке DLLS)</li>
 </ul>
 
 <h3>Скриншоты проекта:</h3>
