@@ -22,3 +22,13 @@
   <li>Язык разметки XAML</li>
   <li>Библиотека Material Design</li>
 </ul>
+
+<h3>Скриншоты проекта:</h3>
+<figure>
+	<img src = "CarDealership/Images/Window1.png">
+	<p align="center">Рисунок 1 - главное окно</p>
+</figure>
+<figure>
+	<img src = "CarDealership/Images/Window2.png">
+	<p align="center">Рисунок 2 - дополнительное окно</p>
+</figure>
