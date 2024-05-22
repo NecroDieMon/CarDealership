@@ -32,3 +32,8 @@
 	<img src = "CarDealership/Images/Window2.png">
 	<p align="center">Рисунок 2 - дополнительное окно</p>
 </figure>
+
+<h3>Видео демонстрация:</h3>
+
+https://github.com/NecroDieMon/CarDealership/assets/116455805/38ddad36-23ce-46f1-a851-933ff97502d1
+
